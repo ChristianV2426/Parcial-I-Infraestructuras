@@ -103,5 +103,7 @@ $RECYCLE.BIN/
 # PDF files
 *.pdf
 
-# Test files
-test.py
+# Video and audio files
+*.mp4
+*.mp3
+*.ma4
