@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -102,6 +103,7 @@ $RECYCLE.BIN/
 
 # PDF files
 *.pdf
+!Informe.pdf
 
 # Video and audio files
 *.mp4
