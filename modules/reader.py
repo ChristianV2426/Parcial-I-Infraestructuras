@@ -13,7 +13,6 @@
     Archivo: reader.py
 """
 
-
 import json
 from datetime import datetime
 

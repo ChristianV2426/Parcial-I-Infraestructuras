@@ -12,10 +12,12 @@
 
     Archivo: single_thread_module.py
 """
+
 import timeit
 from datetime import datetime
 from modules.reader import Reader
 from modules.script import script
+
 
 class SingleThreadModule:
     def __init__(self, videos_to_download, output_dir_path):
@@ -36,7 +38,7 @@ class SingleThreadModule:
 
         for i in range(self.total_videos):
             script(i, self.videos_to_download,
-                               self.output_dir_path, self.video_info)
+                   self.output_dir_path, self.video_info)
 
         total_time = timeit.default_timer() - initial_time
 
