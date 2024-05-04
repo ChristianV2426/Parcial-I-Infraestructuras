@@ -19,6 +19,7 @@ from datetime import datetime
 from modules.reader import Reader
 from modules.script import script
 
+
 class MultiprocessingModule:
     def __init__(self, videos_to_download, number_of_processes, output_dir_path):
         self.videos_to_download = videos_to_download
@@ -79,4 +80,3 @@ class MultiprocessingModule:
                 f"Audio extraction with {self.number_of_processes} processes "
                 f"completed in {format(total_time, '.2f')} seconds / "
                 f"{format(total_time/60, '.2f')} minutes")
-            
